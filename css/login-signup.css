@@ -1,0 +1,108 @@
+ /* poppins link */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ body {
+     font-family: 'Poppins', sans-serif;
+ }
+.main-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:150px;
+    left:20px;
+}
+.title1{
+    font-size:25px;
+    font-weight:600;
+    text-shadow:1px 1px 1px #fafafa;
+}
+.title1 span{
+    color:#F78100;
+    font-weight:800;
+    text-shadow:1px 1px 1px #fafafa;
+}
+.title2{
+    font-weight:600;
+    text-shadow:1px 1px 1px #fafafa;
+}
+.img{
+    position:relative;
+    width: 100vw;
+    height: 100vh;  
+}
+.left-icon{
+    position:absolute;
+    top:10px;
+    left:10px;
+    color:#F78100;
+    font-size:20px;
+}
+    .form{
+        text-align: center;
+        display: flex;
+        flex-direction: column; 
+    }
+    .login-name{
+        color:#F78100; 
+        font-weight:800;
+        margin-top:10px;
+        margin-bottom:20px;
+        text-shadow:1px 1px 1px grey;
+    }
+   
+    .form input{
+        width:100%;
+        outline:none;
+        padding: 5px 10px;
+        border-left: 5px solid #F78100;
+    }
+    .button{  
+        display:flex;
+        margin-top: 10px;
+        align-self:center;
+        width:fit-content;
+        background-color: #F78100;
+        transition:0.1s linear; 
+        color: white!important;
+        padding-left: 25px!important;
+        padding-right: 25px!important;
+        font-weight:700!important;
+    }
+    .button:hover{
+        transition:0.1s linear; 
+        cursor: pointer;
+        background-color: #ff8400; 
+    } 
+    .form input:hover{
+        box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    }
+    
+.fp{
+    /* margin-bottom:10px; */
+    font-size:15px;
+    text-decoration:none;
+    width:fit-content;
+   display:flex;
+   align-self:start;
+    color: #F78100;
+    
+}
+.fp:hover{
+    text-decoration:none;
+    width:fit-content;
+   display:flex;
+   align-self:start;
+    color: #ff8400;
+}
+.su{
+    text-decoration:none;
+    font-size:15px;
+    color: #F78100;
+}
+.su:hover{
+    text-decoration:none;
+    font-size:15px;
+    color: #ff8400;
+}
+
